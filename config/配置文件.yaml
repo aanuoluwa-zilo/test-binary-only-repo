@@ -1,0 +1,17 @@
+binary:
+  test: true
+  unicode: true
+  description: 'Тест бинарных файлов с Unicode'
+
+files:
+  - name: '测试文件.py'
+    type: 'binary'
+    size: '1KB'
+  - name: 'файл-тест.bin'
+    type: 'binary'
+    size: '2KB'
+
+metadata:
+  encoding: 'UTF-8'
+  language: 'Python'
+  description: 'Binary file test with Unicode support'
